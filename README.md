@@ -9,7 +9,7 @@
 
 This project is for learning purpose.
 
-Site published at https://onablo.github.io/5-sign-up/
+Site published at https://onablo.github.io/1-sign1-up/
 
 Design: [Sign up] (https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
