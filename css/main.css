@@ -1,0 +1,23 @@
+.container {
+display: inline-block;
+width: 800px;
+margin-top: 60px;
+background-color:blueviolet;
+margin-left: count((100% - 800px) / 2);
+}
+
+.left-column {
+    float: left;
+    width: 40%;
+    height: 200px;   
+    background-color: chartreuse;
+}
+
+.right-column {
+    float: left;
+    width: 60%;
+    height: 200px;
+    background-color: rgb(255, 0, 242);
+} 
+
+
