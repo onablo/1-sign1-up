@@ -15,7 +15,7 @@ body {
     display: inline-block;
     width: 800px;
     margin-top: 60px;    
-    margin-left: count((100% - 800px) / 2);
+    margin-left: calc((100% - 800px) / 2);
     position: relative;
 }
 
@@ -27,20 +27,30 @@ body {
    
 }
 
-.right-column {
-    float: left;
+.right-column {    
     width: 60%;
-    padding: 40px;
+    float: left;
+    padding: 60px;
     background-color: #fff;
-    
+    position: relative;
 } 
 
 .close {
     display: inline-block;
     width: 60px;
     height: 60px;
-    font-size: 20px;
-    
+    font-size: 24px;
+    text-align: center;
+    line-height: 57px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.close:hover {
+    color:blue;
+    background-color:lightblue;
+    cursor: pointer;
 }
 
 form {
@@ -62,7 +72,7 @@ form > .form-row > label {
     display: inline-block;
     width: 100%;
     margin-bottom: 5px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
     color: grey;
@@ -74,8 +84,15 @@ form > .form-row > input {
     width: 100%;
     font-size: 20px;
     line-height: 30px;
+    color:lightblue;
     border: none;    
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid grey;    
+}
+
+form > .form-row > input::placeholder {
+    
+    color:dodgerblue;
+    
 }
 
 form > .form-row > button {
