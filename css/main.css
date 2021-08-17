@@ -20,16 +20,51 @@ body {
 }
 
 .left-column {
-    float: left;
+    display: inline-block;
     width: 40%;
     padding: 20px; 
     background-color: chartreuse;
-   
+    background-image: url(../img/lake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 0;
+    color: #fff;
+}
+
+.left-column > .main-title {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+}
+
+.left-column > .links {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    right: 30px;
+}
+
+.left-column > .links > a {    
+    color: #fff;
+}
+
+.links > a:hover {
+    color:blue;
+    cursor: pointer;
+}
+
+.left-column > div > span {
+    left: 20px;
 }
 
 .right-column {    
     width: 60%;
-    float: left;
+    float: right;
     padding: 60px;
     background-color: #fff;
     position: relative;
