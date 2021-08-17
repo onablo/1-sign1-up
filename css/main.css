@@ -77,6 +77,7 @@ body {
     font-size: 24px;
     text-align: center;
     line-height: 57px;
+    color:grey;
     position: absolute;
     top: 0;
     right: 0;
@@ -84,7 +85,6 @@ body {
 
 .close:hover {
     color:blue;
-    background-color:lightblue;
     cursor: pointer;
 }
 
@@ -119,14 +119,12 @@ form > .form-row > input {
     width: 100%;
     font-size: 20px;
     line-height: 30px;
-    color:lightblue;
     border: none;    
     border-bottom: 2px solid grey;    
 }
 
 form > .form-row > input::placeholder {
-    
-    color:dodgerblue;
+    color:lightblue;
     
 }
 
